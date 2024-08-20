@@ -1,0 +1,70 @@
+/* Change the background of the page */
+body {
+    background-color: #60abeb; /* Light blue background */
+    font-family: Arial, sans-serif; /* Default font for the page */
+}
+
+/* Change Fonts and Text Styles */
+h1 {
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Positioning an element */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
